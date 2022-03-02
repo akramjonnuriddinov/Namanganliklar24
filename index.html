@@ -9,25 +9,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- STYLES -->
+    <!-- NORMALIZE -->
     <link rel="stylesheet" href="./css/normalize.css">
+    <!-- STYLES -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
-    <div class="container">
-        <div class="gallery">
-            <div class="gallery-item"><img src="https://picsum.photos/300?random=1" alt="rasm" class="gallery-img" width="300" height="300"></div>
-            <div class="gallery-item"><img src="https://picsum.photos/300?random=2" alt="rasm" class="gallery-img" width="300" height="300"></div>
-            <div class="gallery-item"><img src="https://picsum.photos/300?random=3" alt="rasm" class="gallery-img" width="300" height="300"></div>
-            <div class="gallery-item"><img src="https://picsum.photos/300?random=4" alt="rasm" class="gallery-img" width="300" height="300"></div>
-            <div class="gallery-item"><img src="https://picsum.photos/300?random=5" alt="rasm" class="gallery-img" width="300" height="300"></div>
-            <div class="gallery-item"><img src="https://picsum.photos/300?random=6" alt="rasm" class="gallery-img" width="300" height="300"></div>
-            <div class="gallery-item"><img src="https://picsum.photos/300?random=7" alt="rasm" class="gallery-img" width="300" height="300"></div>
-            <div class="gallery-item"><img src="https://picsum.photos/300?random=8" alt="rasm" class="gallery-img" width="300" height="300"></div>
-            <div class="gallery-item"><img src="https://picsum.photos/300?random=9" alt="rasm" class="gallery-img" width="300" height="300"></div>
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="header-logo">
+                <a class="site-logo" href="index.html">NAMANGANLIKLAR 24</a>
+                <div class="site-price">
+                    <a class="site-price-item" href="#">
+                        <span>$</span> 10137.2
+                    </a>
+                    <a class="site-price-item" href="#">
+                        <span>P</span> 138.26
+                    </a>
+                </div>
+            </div>
+            <div class="header-btn">
+                <input class="search" type="text" placeholder="Поиск">
+                <a class="site-lang" href="#">
+                    <span class="site-lang-item">УЗ</span>
+                    <span class="site-lang-item">РУ</span>
+                </a>
+                <a class="main-btn" href="#">Войти</a>
+            </div>
         </div>
-    </div>
+    </header>
+    
+    <main class="site-main">
+        <div class="container nav-container">
+            <nav class="navigation-menu">
+                <ul class="site-nav">
+                    <li class="site-nav-item"><a href="#" class="sitenav-items">Главное</a></li>
+                    <li class="site-nav-item"><a href="#" class="sitenav-items">Интересное</a></li>
+                    <li class="site-nav-item"><a href="#" class="sitenav-items">Экономика</a></li>
+                    <li class="site-nav-item"><a href="#" class="sitenav-items">Политика</a></li>
+                    <li class="site-nav-item"><a href="#" class="sitenav-items">Общество</a></li>
+                    <li class="site-nav-item"><a href="#" class="sitenav-items">Технологии</a></li>
+                    <li class="site-nav-item"><a href="#" class="sitenav-items">Спорт</a></li>
+                    <li class="site-nav-item"><a href="#" class="sitenav-items">Культура</a></li>
+                    <li class="site-nav-item"><a href="#" class="sitenav-items">Происшествия</a></li>
+                    <li class="site-nav-item"><a href="#" class="sitenav-items">Наука</a></li>
+                </ul>
+            </nav>
+            <div class="advertising">
+                <a href="#">
+                    <img src="./img/optimize-1.jpg" srcset="./img/optimize-1.jpg 1x, ./img/optimize-1@2x.jpg 2x" alt="advertising" width="1200" height="128">
+                </a>
+            </div>
+        </div>
+    </main>
 
 </body>
 </html>
