@@ -20,7 +20,7 @@ body {
 }
 
 /* HEADER */
-.site-header {
+.header-section {
     background-color: #F6F6F6;
     margin-bottom: 30px;
 }
@@ -46,7 +46,6 @@ body {
     background-color: #FFFFFF;
     border-radius: 7px;
     text-decoration: none;
-    /* transition: opacity 3s ease; */
 }
 
 .site-logo:hover {
@@ -165,9 +164,7 @@ body {
 /* /HEADER-BTN */
 
 
-/* /HEADER */
-
-.navigation-menu {
+.site-header {
     margin-bottom: 40px;
 }
 
@@ -198,5 +195,16 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 21.33px;
+}
 
+/* /HEADER */
+
+
+/* MAIN */
+
+/* ADVERTISING */
+
+.advertising-img {
+    width: 1200px;
+    height: 128px;
 }
