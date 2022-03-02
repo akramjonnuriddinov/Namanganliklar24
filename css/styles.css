@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: 1px dotted #7296EC;
+    outline-offset: 3px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -212,6 +217,7 @@ body {
     width: 1200px;
     height: 128px;
     border-radius: 8px;
+    display: block;
 }
 
 /* /ADVERTISING */
@@ -222,11 +228,15 @@ body {
     /* display: flex;
     flex-wrap: wrap; */
 }
+.news-block {
+    margin-bottom: 60px;
+}
 
 .news-list {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    /* margin-bottom: 60px; */
 }
 
 .news-item {
@@ -265,6 +275,7 @@ body {
     display: block;
     border-radius: 10px;
     margin-bottom: 15px;
+    height: 165px;
 }
 
 .news-item-title-last {
@@ -277,4 +288,77 @@ body {
 
 .news-mb-remove {
     margin-bottom: 0;
+}
+
+.news-item-span {
+    display: flex;
+    align-items: center;
+}
+
+.news-item-span-img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.notification {
+    margin-bottom: 60px
+}
+
+.notification-container {
+    width: 100%;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 71px 24px 29px;
+    /* background: url("../img/notification-bg.png");
+    background-repeat: no-repeat; */
+    background-color: #FFD7BA;
+    /* margin-bottom: 60px; */
+}
+
+.notification-title {
+    width: 404px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.notification-btn {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.7px;
+    padding: 13px 30px;
+    background-color: #F78B3B;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.notification-btn:hover {
+    opacity: 0.8;
+}
+
+.notification-btn:active {
+    opacity: 0.6;
+}
+
+.world-section {
+    margin-bottom: 20px;
+}
+
+.world-title {
+    font-weight: 500;
+    color: #000;
+    font-size: 24px;
+    line-height: 28.44px;
+    margin: 0;
+    /* margin-bottom: 20px; */
 }
