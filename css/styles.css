@@ -312,9 +312,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 24px 71px 24px 29px;
-    /* background: url("../img/notification-bg.png");
-    background-repeat: no-repeat; */
-    background-color: #FFD7BA;
+    background: url("../img/notification-bg.png");
+    background-repeat: no-repeat;
 }
 
 .notification-title {
