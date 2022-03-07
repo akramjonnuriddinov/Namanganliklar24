@@ -94,6 +94,8 @@ body {
 }
 
 .search {
+    display: flex;
+    align-items: center;
     width: 275px;
     /* height: 45px; */
     border-radius: 60px;
@@ -103,6 +105,7 @@ body {
     line-height: 16.59px;
     border: none;
     padding-left: 15px;
+    padding-right: 15px;
     padding-top: 15px;
     padding-bottom: 13px;
     outline: none;
