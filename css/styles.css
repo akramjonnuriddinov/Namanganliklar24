@@ -695,3 +695,7 @@ body {
 .site-footer-icon:last-child {
     margin-right: 0;
 }
+
+.site-footer-icon img {
+    display: block;
+}
