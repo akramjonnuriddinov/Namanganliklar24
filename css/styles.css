@@ -651,7 +651,7 @@ body {
     width: 224px;
 }
 
-.site-footer-item a {
+.site-footer-item a:not(:last-child) {
     margin-bottom: 20px;
     display: block;
 }
