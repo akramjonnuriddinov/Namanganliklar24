@@ -130,7 +130,7 @@ body {
     width: 275px;
     border-radius: 60px;
     background-color: #fff;
-    color: #8D8D8D;
+    color: #000;
     font-size: 14px;
     line-height: 16.59px;
     border: none;
@@ -140,6 +140,10 @@ body {
     padding-bottom: 13px;
     outline: none;
     margin-right: 25px;
+}
+
+.search::placeholder {
+    color: #8D8D8D;
 }
 
 .search:hover {
