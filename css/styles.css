@@ -801,6 +801,7 @@ body {
 .form-text {
     width: 696px;
     height: 180px;
+    resize: none;
 }
 
 .form-btn {
