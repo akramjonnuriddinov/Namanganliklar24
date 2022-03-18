@@ -855,3 +855,10 @@ body {
     font-size: 16px;
     line-height: 19px;
 }
+
+/* LIST.HTML */
+
+.list-promo-img {
+    height: 553px;
+    object-fit: cover;
+}
