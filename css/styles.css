@@ -879,7 +879,7 @@ body {
     background-color: #00000066;
     margin-left: auto;
     margin-right: auto;
-    display: none;
+    /* display: none; */
 }
 
 .modal-dialog {
@@ -911,9 +911,9 @@ body {
     justify-content: center;
 }
 
-/* MODAL SHOWS */
-.modal-show {
-    display: block;
+/* MODAL CLOSE */
+.modal-close {
+    display: none;
 }
 
 .close-btn {
