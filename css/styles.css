@@ -58,6 +58,7 @@ body {
     margin-right: auto;
 }
 
+
 /* HEADER */
 .header-section {
     background-color: #F6F6F6;
@@ -124,6 +125,7 @@ body {
     margin-right: 25px;
 }
 /* /HEADER LOGO */
+
 
 /* HEADER-BTN */
 .header-btn {
@@ -249,14 +251,11 @@ body {
     font-size: 18px;
     line-height: 21.33px;
 }
-
 /* /HEADER */
 
 
 /* MAIN */
-
 /* ADVERTISING */
-
 .advertising {
     margin-bottom: 50px;
 }
@@ -267,11 +266,10 @@ body {
     border-radius: 8px;
     display: block;
 }
-
 /* /ADVERTISING */
 
-/* NEWS BLOCK */
 
+/* NEWS BLOCK */
 .news-block {
     margin-bottom: 60px;
 }
@@ -387,7 +385,8 @@ body {
     padding: 13px 30px;
     background-color: #F78B3B;
     border-radius: 10px;
-    text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
 
 .notification-btn:hover {
@@ -599,7 +598,6 @@ body {
 
 
 /* FOOTER */
-
 .site-footer {
     background-color: #7297EF;
 }
@@ -704,7 +702,6 @@ body {
     border: none;
 }
 
-
 .footer-icon-wrapper {
     display: flex;
     justify-content: space-between;
@@ -720,7 +717,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 .footer-links {
     display: flex;
@@ -759,7 +755,6 @@ body {
 }
 
 /* CONTACT HTML */
-
 .form-section {
     padding-bottom: 100px;
 }
@@ -868,8 +863,69 @@ body {
 }
 
 /* LIST.HTML */
-
 .list-promo-img {
     height: 553px;
     object-fit: cover;
+}
+
+
+/* MODAL */
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #00000066;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.modal-dialog {
+    border-radius: 20px;
+    padding: 25px 25px 50px 25px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 850px;
+}
+
+.modal-text {
+    width: 512px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 34px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 6px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* MODAL SHOWS */
+.modal-show {
+    display: block;
+}
+
+.close-btn {
+    border: none;
+    background-color: transparent;
+    background-image: url('../img/close-icon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    margin-left: auto;
+    display: block;
 }

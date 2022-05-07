@@ -10,7 +10,7 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body class="">
 
     <header class="site-header">
 
@@ -18,7 +18,7 @@
             <div class="container header-container">
                 <div class="header-logo">
                     <a class="site-logo" href="index.html">
-                        <img class="" src="./img/logo.svg" alt="Site Logo" width="264" height="28">
+                        <img src="./img/logo.svg" alt="Site Logo" width="264" height="28">
                     </a>
                     <div class="site-price">
                         <a class="site-price-item" href="#">
@@ -157,7 +157,7 @@
         <section class="notification">
             <div class="notification-container">
                 <h2 class="notification-title">Хотите быть в курсе свежих новостей?  Включите уведомления!</h2>
-                <a class="notification-btn" href="#">Включит</a>
+                <button class="notification-btn" type="button">Включит</button>
             </div>
         </section>
 
@@ -334,5 +334,20 @@
         </div>
     </footer>
     <!-- /FOOTER -->
+
+    <!-- MODALS -->
+    <section class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close-btn js-close-btn" type="button"></button>
+                <p class="modal-text">Хотите быть в курсе свежих новостей?  Включите уведомления!</p>
+                <div class="button-wrapper">
+                    <button class="notification-btn modal-btn" type="button">Включит </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
